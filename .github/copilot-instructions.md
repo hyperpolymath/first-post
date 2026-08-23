@@ -44,8 +44,8 @@ reach for the first that can do the job:
 3. **pnpm** — only where an upstream toolchain requires `node_modules`.
 4. **npm** — last resort. Permitted, never preferred; a deliberate, noted choice.
 
-TypeScript **is permitted** under Bun. The former "use ReScript instead" rule is
-**retired** — ReScript is no longer used in this estate, so that rule pointed at
+TypeScript **is permitted** under Bun. The former "use AffineScript instead" rule is
+**retired** — AffineScript is no longer used in this estate, so that rule pointed at
 a dead alternative. Do **not** migrate Bun to Deno; that inverts the ruling.
 
 ## Banned Languages
