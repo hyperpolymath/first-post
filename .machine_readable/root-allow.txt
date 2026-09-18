@@ -78,6 +78,7 @@ tools/                     # TODO: consolidate with scripts/ or document the spl
 
 # ─── Shipped by the template but previously unlisted (same class as mise.toml) ─
 ARCHITECTURE.md            # repo layout + design rationale; shipped at root
+ARCHITECTURE.adoc           # design overview; stays at root (owner ruling, 2026-09-18)
 GOVERNANCE.md              # GitHub renders .md natively; ships alongside GOVERNANCE.adoc
 MAINTAINERS                # plain-text roster shipped alongside MAINTAINERS.adoc
 
