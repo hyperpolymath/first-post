@@ -3,15 +3,15 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 Copyright (c) Jonathan D.A. Jewell <j.d.a.jewell@open.ac.uk>
 -->
 # Clone the repository
-git clone https://{{FORGE}}/{{OWNER}}/{{REPO}}.git
-cd {{REPO}}
+git clone https://github.com/hyperpolymath/first-post.git
+cd first-post
 
 # Using Guix (recommended for reproducibility)
 guix shell -D -f guix.scm
 
 # Or using toolbox/distrobox
-toolbox create {{REPO}}-dev
-toolbox enter {{REPO}}-dev
+toolbox create first-post-dev
+toolbox enter first-post-dev
 # Install dependencies manually
 
 # Verify setup
@@ -21,7 +21,7 @@ just test    # Run test suite
 
 ### Repository Structure
 ```
-{{REPO}}/
+first-post/
 ├── src/                 # Source code (Perimeter 1-2)
 ├── lib/                 # Library code (Perimeter 1-2)
 ├── extensions/          # Extensions (Perimeter 2)
@@ -94,10 +94,10 @@ Use the [feature request template](.github/ISSUE_TEMPLATE/feature_request.md) an
 
 Look for issues labelled:
 
-- [`good first issue`](https://{{FORGE}}/{{OWNER}}/{{REPO}}/labels/good%20first%20issue) — Simple Perimeter 3 tasks
-- [`help wanted`](https://{{FORGE}}/{{OWNER}}/{{REPO}}/labels/help%20wanted) — Community help needed
-- [`documentation`](https://{{FORGE}}/{{OWNER}}/{{REPO}}/labels/documentation) — Docs improvements
-- [`perimeter-3`](https://{{FORGE}}/{{OWNER}}/{{REPO}}/labels/perimeter-3) — Community sandbox scope
+- [`good first issue`](https://github.com/hyperpolymath/first-post/labels/good%20first%20issue) — Simple Perimeter 3 tasks
+- [`help wanted`](https://github.com/hyperpolymath/first-post/labels/help%20wanted) — Community help needed
+- [`documentation`](https://github.com/hyperpolymath/first-post/labels/documentation) — Docs improvements
+- [`perimeter-3`](https://github.com/hyperpolymath/first-post/labels/perimeter-3) — Community sandbox scope
 
 ---
 
